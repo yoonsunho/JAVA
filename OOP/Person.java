@@ -14,4 +14,8 @@ public class Person{
         System.out.println("열심!");
         isHungry = true;
     }
+
+    void printInfo(){
+        System.out.println(name+":"+age+isHungry);
+    }
 }

@@ -11,6 +11,7 @@ public class PersonTest {
         p2.name = "정길산";
         p2.work();
         System.out.println(p2.isHungry);
-        
+        p1.printInfo();
+        p2.printInfo();
     }
 }
