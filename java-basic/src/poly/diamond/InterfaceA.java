@@ -1,4 +1,6 @@
 package poly.diamond;
 
-public class InterfaceA {
+public interface InterfaceA {
+    void methodA();
+    void methodCommon();
 }
