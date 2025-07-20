@@ -1,6 +1,6 @@
-package src.main.java.hello.hello_spring.repository;
+package hello.hello_spring.repository;
 
-import src.main.java.hello.hello_spring.domain.Member;
+import hello.hello_spring.domain.Member;
 
 import java.util.List;
 import java.util.Optional;
