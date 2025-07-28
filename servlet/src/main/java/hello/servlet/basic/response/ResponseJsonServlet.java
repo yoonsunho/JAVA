@@ -15,7 +15,7 @@ public class ResponseJsonServlet extends HttpServlet {
     private ObjectMapper objectMapper = new ObjectMapper();
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // COntent-type : application/json
+        // Content-type : application/json
         response.setContentType("application/json");
         response.setCharacterEncoding("utf-8");
 
